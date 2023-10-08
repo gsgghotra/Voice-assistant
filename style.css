@@ -1,0 +1,296 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  background-color:#EAEDED;
+  margin: 0 auto;
+  font-family: 'Crimson Text', serif;
+}
+.logoimg1{
+  position:absolute;
+  width:auto;
+  height:40px;
+  left:40px;
+  top:8px;
+
+}
+header{
+  background-color:#1F618D;
+  width:100%;
+  height:62px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom:1px solid gray;
+}
+h1, p {
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  padding: 20px;
+}
+
+nav{
+  position:absolute;
+  display:block;
+  top:16px;
+  right:50px;
+}
+nav ul{
+  position:relative;
+  list-style:none;
+  display:block;
+}
+nav ul li{
+  list-style-type:none;
+  padding:5px 10px;
+  display:block;
+  margin:0px;
+  float:left;
+  color: aliceblue;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+nav ul li:hover{
+  border-bottom:1px solid silver;
+  cursor:pointer;
+}
+
+#container{
+  width:1200px;
+  margin:0 auto;
+  min-height:100%;
+  margin-top: 50px;
+}
+
+main{
+  display:inline;
+  margin:30px;
+}
+#containerex{
+  width:1200px;
+  margin:0 auto;
+  min-height:100%;
+}
+#containerex h2{
+  color:#0089a1;
+}
+#containerex h4{
+  color:#0089a1;
+}
+#outerpssd{
+  width: 35%;
+  display:inline;
+  float:right;
+  margin:0px auto;
+}
+.pssd {
+  width: 95%;
+  margin:10px auto;
+  color:#545454;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  border:1px solid #989898;
+  border-radius: 10px;
+}
+
+.pssd h2{
+  color:#ececec;
+  margin: 0px;
+  background-color:#59646b;
+  font-size:16px;
+  padding-bottom:10px;
+  padding-top:10px;
+  margin-left:0px;
+  width:100%;
+  text-align:center;
+  border-radius: 10px 10px 0px 0px;
+}
+.pssd h3{
+  font-size:14px;
+  text-align:center;
+}
+
+/* REGISTER */
+#outerrssd{
+  width: 65%;
+  display:inline;
+  float:left;
+  margin:0px auto;
+}
+.rssd {
+  width: 90%;
+  margin:0px auto;
+  color:#545454;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  border:1px solid #989898;
+  border-radius: 10px;
+}
+
+.rssd h2{
+  color:white;
+  margin: 0px;
+  background-color:#59646b;
+  font-size:16px;
+  padding-bottom:10px;
+  padding-top: 25px;
+  margin-left: 0px;
+  width: 100%;
+  height: 33px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.rssd h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #2c3e50;
+  text-align: center;
+}
+
+
+.button_ctr{
+  margin: 0px auto;
+  display: grid;
+  width: fit-content;
+}
+
+ul {
+  margin: 0;
+}
+
+.hints span {
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+
+.sidenotes {
+  margin: 4px;
+}
+
+.sidenotes ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.sidenotes h3 {
+  font: bold 16px/1.5 'Crimson Text', serif;
+  margin: 5px;
+}
+
+.sidenotes li img {
+  float: left;
+  margin: 0 5px 0 0;
+}
+
+.sidenotes li p {
+  font: 200 14px/1.5 'Crimson Text', serif;
+  padding:2px;
+}
+
+.sidenotes li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.sidenotes li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+/* General button style */
+.btn {
+  border: none;
+  font-family: 'Crimson Text', serif;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+  font-family: 'FontAwesome';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 10px;
+}
+
+
+/* Icon separator */
+.btn-sep {
+  padding: 25px 60px 25px 120px;
+}
+
+.btn-sep:before {
+  background: rgba(0,0,0,0.15);
+  border-radius: 10px;
+}
+
+/* Button 3 */
+.btn-4 {
+  background: #1F618D;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.btn-4:hover {
+  background: #2c3e50;
+  border-radius: 10px;
+}
+
+.btn-4:active {
+  background: #2c3e50;
+  border-radius: 10px;
+  top: 2px;
+}
+
+.btn-4:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  border-radius: 10px;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Icons */
+
+.icon-mic:before {
+  content: "\f130";
+  border-radius: 10px 0px 0px 10px;
+}
+
+

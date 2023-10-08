@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Gurjeet Singh">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+  <title>G Calendar</title>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <!-- Logo -->
+    <img src="./images/calendar.png" class="logoimg1" alt="Logo" onclick="location.href='index.html'"/>
+  </header>
+
+  <!-- Navigation Section -->
+  <nav>
+    <ul>
+      <!-- Navigation Link -->
+      <li onclick="location.href='index.html'">Home</li>
+    </ul>
+  </nav>
+
+  <!-- Audio Player -->
+  <audio id="myAudio">
+    <source src="sound1.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Main Content Container -->
+  <div id="container">
+    <!-- Voice Assistant Section -->
+    <div id="outerrssd">
+      <div class="rssd">
+        <h2>G Calendar</h2>
+        <h3>G voice assistant</h3>
+        <p class="response"><em>Press on the button below to start voice assistant </em></p>
+        <div class="button_ctr">
+          <!-- Button to Start Voice Assistant -->
+          <button class="btn btn-4 btn-sep icon-mic" onclick="startRec()">Assistant</button>
+        </div>
+        <p class="output"><em></em></p>
+      </div>
+    </div>
+
+    <!-- Aside Section -->
+    <div id="outerpssd">
+      <!-- Help Section -->
+      <div class="pssd">
+        <h2>Need Help?</h2>
+        <div class="sidenotes">
+          <ul>
+            <li>
+              <p> Click on Assistant button to start.</p>
+              <p>Wait for the assistant to finish speaking. Then, speak after the trigger sound and input your voice command.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Commands Section -->
+      <div class="pssd">
+        <h2>Not Sure about commands?</h2>
+        <div class="sidenotes">
+          <ul>
+            <li>
+              <h3>Ask me 'what can you do?'</h3>
+              <p> Click on Assistant button to start.
+                Wait for the assistant to finish speaking. After then, speak after the trigger sound and input your voice command.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Event Adding Section -->
+      <div class="pssd">
+        <h2>How to add an event?</h2>
+        <div class="sidenotes">
+          <ul>
+            <li>
+              <h3>Here are a few ways you can talk to me</h3>
+              <p> 1. Add a new task.</p>
+              <p> 2. Set an event on 15th of April.</p>
+              <p> 3. Add a new reminder to remind me about work tomorrow afternoon.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
