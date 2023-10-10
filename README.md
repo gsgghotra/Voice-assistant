@@ -41,4 +41,4 @@ For further assistance or questions, please email gsgghotra@gmail.com.
 
 ## Project Link
 
-You can access the project [here](https://gsgghotra.github.io/voice-assistant/).
+You can access the project [here](https://gsgghotra.github.io/Voice-assistant/).
